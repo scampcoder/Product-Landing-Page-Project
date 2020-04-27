@@ -1,0 +1,93 @@
+#header {
+  text-align: center;
+  background-color: #c4c4c4;
+  margin: -25px;
+  margin-top: 5px;
+}
+#header-img {
+  width: 60%;
+}
+#nav-bar {
+  display: flex;
+  width: 105%;
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+}
+nav a {
+  color: red;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  margin: auto;
+}
+nav a:hover {
+  cursor: pointer;
+}
+#about {
+  margin-top: 150px;
+}
+#descr {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 25px;
+}
+.tab {
+  text-indent: 5%;
+}
+#vidlabel {
+  margin-top: 150px;
+}
+#video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 560px;
+  height: 315px;
+}
+#form {
+  margin-bottom: 50px;
+  margin-top: 150px;
+}
+button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+#contact {
+  color: red;
+}
+#phone {
+  margin-top: -15px;
+}
+.center {
+  text-align: center;
+}
+@media (max-width: 480px) {
+  #header {
+    margin-top: 55px;
+  }
+  nav a {
+    font-size: 12px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  #about {
+    margin-top: 50px;
+  }
+  #descr {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+  }
+  #video {
+    width: 100%;
+    height: auto;
+  }
+}
+.nav {
+  display: flex;
+  flex: 1;
+}
